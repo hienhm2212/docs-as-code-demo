@@ -1,0 +1,83 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+  title: "Technical Documentation"
+  subtitle: "This is for demo"
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/"
+
+  badge:
+    text: v0.1.0
+    color: primary
+    pill: false
+    soft: true
+
+  titleLogo:
+    path: "images/logos"
+    filename: "title_logo_hu_3a31a7464686ed72.webp"
+    alt: "document logo"
+    height: 80px
+
+  image:
+    path: "images/templates/hero"
+    filename: "hero2.png"
+    alt: "Hero image screenshot"
+    boxShadow: false
+    rounded: true
+
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+  title: "Modules"
+  # list of features
+  items:
+    - title: "Item"
+      icon: "inventory_2"
+      description: "Core data item module: definitions, metadata, and operations."
+      ctaLink:
+        text: "Explore"
+        url: "/docs/modules/item/"
+
+    - title: "Pre-Requisition"
+      icon: "assignment"
+      description: "Flows around prerequisites: forms, validation, PDF submissions."
+      ctaLink:
+        text: "Explore"
+        url: "/docs/modules/pre-requisition/"
+
+    - title: "Surgical Case"
+      icon: "medical_services"
+      description: "Management of surgical cases, scheduling, and case tracking."
+      ctaLink:
+        text: "Explore"
+        url: "/docs/modules/surgical-case/"
+
+    - title: "User"
+      icon: "group"
+      description: "User management and group permissions."
+      ctaLink:
+        text: "Explore"
+        url: "/docs/modules/user/"
+
+    - title: "Report"
+      icon: "export_notes"
+      description: "User management and group permissions."
+      ctaLink:
+        text: "Explore"
+        url: "/docs/modules/report/"
+imageCompare:
+  enable: false

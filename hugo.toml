@@ -1,0 +1,49 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'MIMS Technical Documentation Site'
+
+# Hugo module configuration
+[module]
+    [[module.imports]]
+        path = "github.com/colinwilson/lotusdocs"
+        disable = false
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
+
+[markup]
+    [markup.tableOfContents]
+        endLevel = 4
+        startLevel = 1
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+        [markup.goldmark.parser]
+            [markup.goldmark.parser.attribute]
+                block = true
+[params]
+    # Load the fonts you need
+    google_fonts = [
+        ["Inter", "300,400,600,700"],
+        ["Fira Code", "400,500,700"]
+    ]
+
+    # Font settings
+    sans_serif_font = "Inter"
+    mono_font = "Fira Code"
+    [params.footer]
+        copyright = "© 2025 MIMS. Build with Lotus and Hugo"
+
+    [params.social]
+        github = "hienhm2212"
+
+    [params.docs]
+        title = "MIMS Documentation"
+        darkMode = true
+        prism = true
+        prismTheme = "lucario"
+        
+    # Homepage configuration
+    [params.homepage]
+        title = "MIMS Technical Documentation"
+        description = "Welcome to MIMS Technical Documentation Site"
