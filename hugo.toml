@@ -1,4 +1,4 @@
-baseURL = '/docs-as-code-demo/'
+# baseURL will be set dynamically based on environment
 canonifyURLs = true
 languageCode = 'en-us'
 title = 'MIMS Technical Documentation Site'
