@@ -1,4 +1,5 @@
-baseURL = 'https://hienhm2212.github.io/docs-as-code-demo/'
+baseURL = '/docs-as-code-demo/'
+canonifyURLs = true
 languageCode = 'en-us'
 title = 'MIMS Technical Documentation Site'
 
