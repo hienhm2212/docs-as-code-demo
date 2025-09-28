@@ -1,7 +1,7 @@
 # baseURL will be set dynamically based on environment
 canonifyURLs = true
 languageCode = 'en-us'
-title = 'MIMS Technical Documentation Site'
+title = 'Technical Documentation Site'
 
 # Hugo module configuration
 [module]
@@ -33,18 +33,18 @@ title = 'MIMS Technical Documentation Site'
     sans_serif_font = "Inter"
     mono_font = "Fira Code"
     [params.footer]
-        copyright = "© 2025 MIMS. Build with Lotus and Hugo"
+        copyright = "© 2025. Build with Lotus and Hugo"
 
     [params.social]
         github = "hienhm2212"
 
     [params.docs]
-        title = "MIMS Documentation"
+        title = "Documentation"
         darkMode = true
         prism = true
         prismTheme = "lucario"
-        
+
     # Homepage configuration
     [params.homepage]
-        title = "MIMS Technical Documentation"
-        description = "Welcome to MIMS Technical Documentation Site"
+        title = "Technical Documentation"
+        description = "Welcome to Technical Documentation Site"

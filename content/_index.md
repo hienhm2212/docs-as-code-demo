@@ -1,6 +1,6 @@
 ---
-title: "MIMS Technical Documentation"
-description: "Welcome to MIMS Technical Documentation Site"
+title: "Technical Documentation"
+description: "Welcome to Technical Documentation Site"
 date: 2025-01-27T00:00:00+00:00
 draft: false
 weight: 1
