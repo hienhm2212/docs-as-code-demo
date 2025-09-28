@@ -5,7 +5,7 @@ draft: false
 
 # Documentation Snippets
 
-## Link t o another page
+## Link to another page
 
 [View Page 1](/docs/modules/multi-pages/page-1)
 

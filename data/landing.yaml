@@ -45,39 +45,33 @@ featureGrid:
   title: "Modules"
   # list of features
   items:
-    - title: "Item"
-      icon: "inventory_2"
-      description: "Core data item module: definitions, metadata, and operations."
-      ctaLink:
-        text: "Explore"
-        url: "/docs/modules/item/"
+  - title: "Introduction"
+    icon: "home"
+    description: "Start here — overview and purpose of the documentation."
+    ctaLink:
+      text: "Explore"
+      url: "/docs/intro/"
 
-    - title: "Pre-Requisition"
-      icon: "assignment"
-      description: "Flows around prerequisites: forms, validation, PDF submissions."
-      ctaLink:
-        text: "Explore"
-        url: "/docs/modules/pre-requisition/"
+  - title: "Simple Page"
+    icon: "description"
+    description: "A standalone page with simple content and formatting."
+    ctaLink:
+      text: "Explore"
+      url: "/docs/modules/simple_page/"
 
-    - title: "Surgical Case"
-      icon: "medical_services"
-      description: "Management of surgical cases, scheduling, and case tracking."
-      ctaLink:
-        text: "Explore"
-        url: "/docs/modules/surgical-case/"
+  - title: "Multi Page - Page 1"
+    icon: "article"
+    description: "First page in the multi-page module."
+    ctaLink:
+      text: "Explore"
+      url: "/docs/modules/multi-pages/page-1/"
 
-    - title: "User"
-      icon: "group"
-      description: "User management and group permissions."
-      ctaLink:
-        text: "Explore"
-        url: "/docs/modules/user/"
+  - title: "Multi Page - Page 2"
+    icon: "article"
+    description: "Second page in the multi-page module."
+    ctaLink:
+      text: "Explore"
+      url: "/docs/modules/multi-pages/page-2/"
 
-    - title: "Report"
-      icon: "export_notes"
-      description: "User management and group permissions."
-      ctaLink:
-        text: "Explore"
-        url: "/docs/modules/report/"
 imageCompare:
   enable: false
