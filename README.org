@@ -1,0 +1,42 @@
+* Project Documentation
+This repository contains the *documentation (as code)* for demo.
+We use Hugo + Lotus Docs theme to generate a documentation site from markdown files.
+
+** Structure
+#+begin_src
+├── modules
+│ ├── multi-pages
+│ │ ├── diagrams
+│ │ │ └── 9-essential-components-of-production-microservice-app.png
+│ │ ├── _index.md
+│ │ ├── page-1.md
+│ │ └── page-2.md
+│ └── simple_page.md
+└── intro.md
+#+end_src
+- =modules/= - logical grouping of docs modules / subtopics
+- =multi-pages/= - a module containing multiple pages
+- =diagrams/= - images used by markdown pages
+- =intro.md= - introductory or over view page
+
+** How to Write / Organize Content
+- Create *Markdown* files (~.md~) with front matter at top:
+#+begin_src yaml
+---
+title: "Title of Page"
+description: "Short description"
+author: "Author name"
+version: "Version of document"
+---
+#+end_src
+- To embed images from the =diagrams/= folder, reference them like:
+#+begin_src markdown
+  ![Caption](./diagrams/image-name)
+#+end_src
+- Use headings, lists, tables, code blocks etc. to format content richly.
+- For multi-page modules, use =_index.md= as the module's index / overview.
+
+** Features
+- *Docs as Code*: all documentation is versioned alongside code (in Markdown)
+- *Modular layout*: documents organized by modules and pages
+- *Image support*: diagrams stored in module folders and referenced in pages
