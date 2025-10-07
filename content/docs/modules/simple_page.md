@@ -21,3 +21,15 @@ This is a example of simple page
  /   \ /   \    |   |   |   |    |   |   |   |     '---+            '-+         +
  1   2 3   4    1   2   3   4    1   2   3   4         '--- 4          '-- 4     \ 4
 ```
+
+## Simple Text Formatting
+You can make text **bold**, *italic*, or even ***bold***. You can also use `inline code` for short references.
+
+## A Small Code Snippet
+
+```python
+def greet(name):
+  return "Hello, " + name + "!"
+
+print(greet("World"))
+```
